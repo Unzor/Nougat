@@ -46,7 +46,8 @@ And if you want to try Nougat yourself, here's the link to the project.
 
 
 
-Code for all versions:
+## Code for all versions:
+
 `nougat.launch('#display', '7.1');` - Android Nougat
 
 `nougat.launch('#display', '7.0');` - Android Nougat
