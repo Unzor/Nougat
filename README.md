@@ -1,11 +1,11 @@
 # Nougat
-An open-source Android 7.1 VM inside your browser that is made with Browserling scripts.
+An open-source Android VM inside your browser that is made with Browserling scripts.
 
 # How do I use Nougat?
 To use nougat, simply use this line of code:
 
 
-`nougat.launch('#AnElementIdHere');`
+`nougat.launch('#AnElementIdHere', 'android.version.here');`
 
 
 
@@ -18,7 +18,7 @@ The entire HTML code would be this:
   <body>
    <h1> Android in your browser! </h1>
   <p>This is a JavaScript library that embeds Android in your browser. (Nougat) </p>
-    <button onclick="nougat.launch('#display');">Launch Nougat!</button>
+    <button onclick="nougat.launch('#display', '7.1');">Launch Nougat!</button>
     <div id="display"></div>
         <script src="nougat.js"></script>
  </body>
@@ -30,3 +30,20 @@ Here is a screenshot of Nougat:
 And if you want to try Nougat yourself, here's the link to the project.
 
 ### [Demo Link](https://unzor.github.io/Nougat)
+
+# All Android Versions
+7.1 - Android Nougat
+7.0 - Android Nougat
+6.0 - Android Marshmallow
+5.1 - Android Lollipop
+5.0 - Android Lollipop
+4.4 - Android KitKat
+
+
+Code for all versions:
+`nougat.launch('#display', '7.1');` - Android Nougat
+`nougat.launch('#display', '7.0');` - Android Nougat
+`nougat.launch('#display', '6.0');` - Android Marshmallow
+`nougat.launch('#display', '5.1');` - Android Lollipop
+`nougat.launch('#display', '5.0');` - Android Lollipop
+`nougat.launch('#display', '4.4');` - Android KitKat
