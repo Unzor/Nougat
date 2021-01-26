@@ -33,17 +33,29 @@ And if you want to try Nougat yourself, here's the link to the project.
 
 # All Android Versions
 7.1 - Android Nougat
+
 7.0 - Android Nougat
+
 6.0 - Android Marshmallow
+
 5.1 - Android Lollipop
+
 5.0 - Android Lollipop
+
 4.4 - Android KitKat
+
 
 
 Code for all versions:
 `nougat.launch('#display', '7.1');` - Android Nougat
+
 `nougat.launch('#display', '7.0');` - Android Nougat
+
 `nougat.launch('#display', '6.0');` - Android Marshmallow
+
 `nougat.launch('#display', '5.1');` - Android Lollipop
+
 `nougat.launch('#display', '5.0');` - Android Lollipop
+
 `nougat.launch('#display', '4.4');` - Android KitKat
+
