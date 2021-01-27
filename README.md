@@ -50,15 +50,15 @@ And if you want to try Nougat yourself, here's the link to the project.
 
 ## Code for all existing versions in Nougat:
 
-`nougat.launch('#display', '7.1');` - Android Nougat
+`nougat.launch('#elementid', '7.1');` - Android Nougat
 
-`nougat.launch('#display', '7.0');` - Android Nougat
+`nougat.launch('#elementid', '7.0');` - Android Nougat
 
-`nougat.launch('#display', '6.0');` - Android Marshmallow
+`nougat.launch('#elementid', '6.0');` - Android Marshmallow
 
-`nougat.launch('#display', '5.1');` - Android Lollipop
+`nougat.launch('#elementid', '5.1');` - Android Lollipop
 
-`nougat.launch('#display', '5.0');` - Android Lollipop
+`nougat.launch('#elementid', '5.0');` - Android Lollipop
 
-`nougat.launch('#display', '4.4');` - Android KitKat
+`nougat.launch('#elementid', '4.4');` - Android KitKat
 
