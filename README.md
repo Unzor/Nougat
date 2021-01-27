@@ -7,7 +7,7 @@ This was originally meant for only Android Nougat (7.1), but I decided to expand
 To use Nougat, simply use this line of code:
 
 
-`nougat.launch('#AnElementId, .AnElementClass, AnElement', 'android.version.here');`
+`nougat.launch('#AnElementId, .AnElementClass, AnElement', 'android.version.here', clear dom before load: true/false);`
 
 
 
@@ -20,7 +20,7 @@ The entire HTML code would be this:
   <body>
    <h1> Android in your browser! </h1>
   <p>This is a JavaScript library that embeds Android in your browser. (Nougat) </p>
-    <button onclick="nougat.launch('#display', '7.1');">Launch Nougat!</button>
+    <button onclick="nougat.launch('#display', '7.1', true);">Launch Nougat!</button>
     <div id="display"></div>
         <script src="nougat.js"></script>
  </body>
@@ -50,15 +50,15 @@ And if you want to try Nougat yourself, here's the link to the project.
 
 ## Code for all existing versions in Nougat:
 
-`nougat.launch('#elementid', '7.1');` - Android Nougat
+`nougat.launch('#elementid', '7.1', true/false);` - Android Nougat
 
-`nougat.launch('#elementid', '7.0');` - Android Nougat
+`nougat.launch('#elementid', '7.0', true/false);` - Android Nougat
 
-`nougat.launch('#elementid', '6.0');` - Android Marshmallow
+`nougat.launch('#elementid', '6.0', true/false);` - Android Marshmallow
 
-`nougat.launch('#elementid', '5.1');` - Android Lollipop
+`nougat.launch('#elementid', '5.1', true/false);` - Android Lollipop
 
-`nougat.launch('#elementid', '5.0');` - Android Lollipop
+`nougat.launch('#elementid', '5.0', true/false);` - Android Lollipop
 
-`nougat.launch('#elementid', '4.4');` - Android KitKat
+`nougat.launch('#elementid', '4.4', true/false);` - Android KitKat
 
