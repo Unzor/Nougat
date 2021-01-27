@@ -31,7 +31,7 @@ And if you want to try Nougat yourself, here's the link to the project.
 
 ### [Demo Link](https://unzor.github.io/Nougat)
 
-# All Android Versions
+# All existing versions in Nougat:
 7.1 - Android Nougat
 
 7.0 - Android Nougat
@@ -46,7 +46,7 @@ And if you want to try Nougat yourself, here's the link to the project.
 
 
 
-## Code for all versions:
+## Code for all existing versions in Nougat:
 
 `nougat.launch('#display', '7.1');` - Android Nougat
 
