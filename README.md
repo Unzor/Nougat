@@ -7,7 +7,7 @@ This was originally meant for only Android Nougat (7.1), but I decided to expand
 To use Nougat, simply use this line of code:
 
 
-`nougat.launch('#AnElementIdHere', 'android.version.here');`
+`nougat.launch('#AnElementId, .AnElementClass, AnElement', 'android.version.here');`
 
 
 
