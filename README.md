@@ -28,7 +28,7 @@ The entire HTML code would be this:
 ```
 # Demos of Nougat
 Here is a screenshot of Nougat:
-![](https://cdn.glitch.com/5b277599-a348-4276-93be-3eb331552a51%2FScreenshot%202021-01-26%20at%201.24.27%20PM.png)
+![](https://cdn.glitch.com/5b29fefa-b38c-4c05-8f15-47cd7f21fd6a%2FScreenshot%202021-01-26%20at%206.49.03%20PM.png?v=1611708575415)
 And if you want to try Nougat yourself, here's the link to the project.
 
 ### [Demo Link](https://unzor.github.io/Nougat)
