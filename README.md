@@ -4,7 +4,7 @@ An open-source Android VM inside your browser that is made with Browserling scri
 This was originally meant for only Android Nougat (7.1), but I decided to expand it to many Android versions.
 
 # How do I use Nougat?
-To use nougat, simply use this line of code:
+To use Nougat, simply use this line of code:
 
 
 `nougat.launch('#AnElementIdHere', 'android.version.here');`
