@@ -9,7 +9,7 @@ This was originally meant for only Android Nougat (7.1), but I decided to expand
 To use Nougat, simply use this line of code:
 
 
-`nougat.launch('#AnElementId, .AnElementClass, AnElement', 'android.version.here', clear dom before load: true/false);`
+`nougat.launch('#AnElementId, .AnElementClass, AnElement', 'android.version.here', center canvas: true/false, clear dom before load: true/false);`
 
 
 
