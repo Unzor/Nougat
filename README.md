@@ -9,7 +9,7 @@ This was originally meant for only Android Nougat (7.1), but I decided to expand
 To use Nougat, simply use this line of code:
 
 
-`nougat.launch('#AnElementId, .AnElementClass, AnElement', 'android.version.here', center canvas: true/false, clear dom before load: true/false);`
+`nougat.launch('#AnElementId, .AnElementClass, AnElement', 'android.version.here', 'url here (if none wanted simply put none)' center canvas: true/false, clear dom before load: true/false);`
 
 
 
@@ -22,7 +22,7 @@ The entire HTML code would be this:
   <body>
    <h1> Android in your browser! </h1>
   <p>This is a JavaScript library that embeds Android in your browser. (Nougat) </p>
-    <button onclick="nougat.launch('#display', '7.1', true, true);">Launch Nougat!</button>
+    <button onclick="nougat.launch('#display', '7.1', 'https://google.com', true, true);">Launch Nougat!</button>
     <div id="display"></div>
         <script src="nougat.js"></script>
  </body>
@@ -52,15 +52,15 @@ And if you want to try Nougat yourself, here's the link to the project.
 
 ## Code for all existing versions in Nougat:
 
-`nougat.launch('#elementid', '7.1', true/false, true/false);` - Android Nougat
+`nougat.launch('#elementid', '7.1', url, true/false, true/false);` - Android Nougat
 
-`nougat.launch('#elementid', '7.0', true/false, true/false);` - Android Nougat
+`nougat.launch('#elementid', '7.0', url, true/false, true/false);` - Android Nougat
 
-`nougat.launch('#elementid', '6.0', true/false, true/false);` - Android Marshmallow
+`nougat.launch('#elementid', '6.0', url, true/false, true/false);` - Android Marshmallow
 
-`nougat.launch('#elementid', '5.1', true/false, true/false);` - Android Lollipop
+`nougat.launch('#elementid', '5.1', url, true/false, true/false);` - Android Lollipop
 
-`nougat.launch('#elementid', '5.0', true/false, true/false);` - Android Lollipop
+`nougat.launch('#elementid', '5.0', url, true/false, true/false);` - Android Lollipop
 
-`nougat.launch('#elementid', '4.4', true/false, true/false);` - Android KitKat
+`nougat.launch('#elementid', '4.4', url, true/false, true/false);` - Android KitKat
 
