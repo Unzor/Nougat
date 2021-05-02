@@ -5,6 +5,10 @@ An open-source Android VM inside your browser that is made with Browserling scri
 
 This was originally meant for only Android Nougat (7.1), but I decided to expand it to many Android versions.
 
+# Dependencies included in Nougat script
+- jQuery
+- socket.io
+
 # How do I use Nougat?
 To use Nougat, simply use this line of code:
 
