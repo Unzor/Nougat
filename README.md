@@ -15,7 +15,30 @@ To use Nougat, simply use this line of code:
 
 `nougat.launch('#AnElementId, .AnElementClass, AnElement', 'android.version.here', 'url here (if none wanted simply put none)' center canvas: true/false, clear dom before load: true/false);`
 
+To get the canvas element, use this:
 
+```
+nougat.getCanvas()
+```
+
+You can take screenshots too with:
+
+```
+nougat.generateScreenshotURL();
+```
+
+It will return a DataURL, and you can use it to make images like this:
+
+```
+var im=new Image();
+
+nougat.launch('#mydisplay', '7.1', 'https://google.com', false, true);
+
+setTimeout(function(){
+im.src=nougat.generateScreenshotURL();
+document.appendChild(im)
+}, 5000);
+```
 
 The entire HTML code would be this:
 ```
