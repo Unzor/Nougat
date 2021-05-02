@@ -10079,9 +10079,9 @@ function CanvasEditorMenu (canvasEditor) {
 }
 
 nougat.getCanvas=function(){
-    return document.querySelector(elementToCanv);
+    return document.querySelector(elementToCanv).querySelector('div').querySelector('canvas');
 }
 
   nougat.generateScreenshotURL=function(){
-  return document.querySelector(elementToCanv).querySelector('canvas').toDataURL();
+  return document.querySelector(elementToCanv).querySelector('div').querySelector('canvas').toDataURL();
 }
