@@ -36,7 +36,7 @@ nougat.launch('#mydisplay', '7.1', 'https://google.com', false, true);
 
 setTimeout(function(){
 im.src=nougat.generateScreenshotURL();
-document.appendChild(im)
+document.body.appendChild(im)
 }, 5000);
 ```
 
