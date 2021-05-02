@@ -3,7 +3,12 @@
   <head>
   </head>
   <body>
-   <h1> Android in your browser! </h1>
+   <script>
+     function screenshot(){
+     var a=document.createElement('a'); a.href=nougat.generateScreenshotURL(); a.setAttribute('download', 'nougat-screenshot'); document.body.appendChild(a); a.click(); a.remove();
+     }
+    </script>
+    <h1> Android in your browser! </h1>
   <p>This is a JavaScript library that embeds Android in your browser. (Nougat) </p>
   <button onclick="nougat.launch('#display', '7.1', 'none', true, true);">
     Launch Android Nougat (7.1)
@@ -23,6 +28,7 @@
      <button onclick="nougat.launch('#display', '4.4', 'none', true, true);">
     Launch Android KitKat (4.4)
   </button>
+    <button style="position:relative; top:1.5%; left: 90%;" onclick="screenshot()"> Take screenshot </p>
     <div id="display"></div>
         <script src="nougat.js"></script>
  </body>
